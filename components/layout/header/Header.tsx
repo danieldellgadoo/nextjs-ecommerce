@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <header className="relative bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <nav className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+        <nav className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-15">
           <Logo />
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
             {session && session?.user?.image && (
